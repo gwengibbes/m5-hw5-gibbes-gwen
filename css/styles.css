@@ -1,0 +1,64 @@
+/*========================================
+
+Universal Styling
+========================================*/
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header > div > nav {
+    float: right;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background: url('../images/moroccanflower.png') fixed;
+}
+
+p {
+    background-color: rgb(248, 246, 244);
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.main-nav li {float: right; }
+.main-nav li a {
+    display: block;
+    color: #EEEEEE;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+img {
+    float: left;
+}
+
+header > nav {
+    float: right;
+}
+
+section {
+    float: left;
+    max-width: 700px;
+}
+
+/* clearfix */
+main::after{
+    content: "" ;
+    clear : both;
+    display : block;
+}
+
+footer {
+    display: inlineblock;
+    color: #EEEEEE;
+    background-color: #333333;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
